@@ -1,4 +1,6 @@
-// @ts-expect-error missing implementation
 const getRandomNumber = (): number => {
-  // your implementation here
+  const number: number = Math.random();
+  return number;
 };
+const res = getRandomNumber();
+console.log(res);
